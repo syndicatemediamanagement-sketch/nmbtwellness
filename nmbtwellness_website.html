@@ -630,30 +630,150 @@ footer { background:var(--navy-dk); padding:60px 80px 28px; }
 
 <div class="divider"></div>
 
-<!-- EAP FINDER -->
+<!-- RESOURCES -->
 <section class="eap" id="eap">
   <div class="eap-inner">
     <div class="fade-up">
-      <span class="section-no">— 04 &nbsp; Find Help</span>
-      <h2 class="section-title">Who Do<br>You Call?</h2>
+      <span class="section-no">— 04 &nbsp; Resources</span>
+      <h2 class="section-title">Here's Where<br>Help Is.</h2>
     </div>
-    <div class="eap-grid">
-      <div class="fade-up">
-        <p class="eap-desc">Every union has its own EAP — free, confidential counseling and referral services paid for by your benefits. Find your local below and make the call. It costs nothing. It stays private. It could save your life.</p>
-        <br>
-        <p class="eap-desc" style="color:#888;font-size:14px;">Don't see your local? Contact us and we'll connect you with the right resource.</p>
-        <br><br>
-        <a href="tel:988" class="btn-primary">Call 988 Now</a>
+
+    <!-- 988 Banner -->
+    <div style="background:var(--teal);padding:28px 36px;margin:40px 0 48px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;" class="fade-up">
+      <div>
+        <div style="font-family:'Display',sans-serif;font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:0.04em;color:white;">988 · Suicide &amp; Crisis Lifeline</div>
+        <div style="font-family:'Mono',monospace;font-size:13px;color:rgba(255,255,255,0.8);margin-top:6px;">Confidential · Free · Available 24/7 · Call or Text</div>
       </div>
-      <div class="eap-list fade-up d1">
-        <div class="eap-item"><div class="eap-union">UA Local 412 — Plumbers &amp; Pipefitters</div><div class="eap-phone">Union EAP</div></div>
-        <div class="eap-item"><div class="eap-union">SMART Local 49 — Sheet Metal</div><div class="eap-phone">Smart Matter</div></div>
-        <div class="eap-item"><div class="eap-union">Painters &amp; Allied Trades</div><div class="eap-phone">Canopy EAP</div></div>
-        <div class="eap-item"><div class="eap-union">Ironworkers Local</div><div class="eap-phone">Contact Coalition</div></div>
-        <div class="eap-item"><div class="eap-union">IBEW — Electricians</div><div class="eap-phone">Pending — Contact Us</div></div>
-        <div class="eap-item highlight"><div class="eap-union">988 · Suicide &amp; Crisis Lifeline</div><div class="eap-phone">All unions · 24/7</div></div>
+      <a href="tel:988" style="background:var(--gold);color:var(--navy-dk);font-family:'Display',sans-serif;font-weight:800;font-size:32px;padding:14px 40px;text-decoration:none;letter-spacing:0.04em;">CALL 988</a>
+    </div>
+
+    <!-- Union EAPs -->
+    <div class="fade-up" style="margin-bottom:48px;">
+      <div style="font-family:'Mono',monospace;font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:16px;">— Your Union EAP</div>
+      <div style="font-family:'Display',sans-serif;font-weight:800;font-size:32px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:24px;">Find Your Local</div>
+      <p style="font-size:15px;color:#555;line-height:1.7;max-width:700px;margin-bottom:32px;">Every building trades local has an Employee Assistance Program — free, confidential counseling and referral services paid for by your benefits. Find yours below and make the call.</p>
+
+      <div class="eap-list">
+
+        <div class="eap-item">
+          <div class="eap-union">UA Local 412 — Plumbers &amp; Pipefitters</div>
+          <a href="https://www.unioneap.com/" target="_blank" class="eap-phone" style="text-decoration:none;">Union EAP →</a>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">SMART Local — Sheet Metal Workers</div>
+          <a href="https://www.unioneap.com/" target="_blank" class="eap-phone" style="text-decoration:none;">Union EAP →</a>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">IUPAT Local 823 — Painters &amp; Allied Trades</div>
+          <a href="https://www.dc36.org/sites/default/files/2025-03/All.pdf" target="_blank" class="eap-phone" style="text-decoration:none;">Canopy EAP →</a>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">Ironworkers Local</div>
+          <div style="display:flex;flex-direction:column;gap:4px;align-items:flex-end;">
+            <a href="https://www.awpnow.com/main/" target="_blank" class="eap-phone" style="text-decoration:none;">Alliance Work Partners →</a>
+            <a href="https://iwu.crediblemind.com/" target="_blank" class="eap-phone" style="text-decoration:none;font-size:11px;">Credible Mind →</a>
+          </div>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">Elevator Constructors</div>
+          <a href="https://neibenefits.lyrahealth.com/" target="_blank" class="eap-phone" style="text-decoration:none;">Lyra MAP →</a>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">LIUNA Local 16 — Laborers</div>
+          <a href="https://www.compsych.com/" target="_blank" class="eap-phone" style="text-decoration:none;">ComPsych EAP →</a>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">IBEW Local 611 — Electricians</div>
+          <div class="eap-phone" style="color:var(--gray);">EAP — In Progress</div>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">IBEW Local 583 — Electricians</div>
+          <div class="eap-phone" style="color:var(--gray);">EAP — Coming Soon</div>
+        </div>
+
+        <div class="eap-item">
+          <div class="eap-union">Insulators Local 76</div>
+          <a href="https://youturnhealth.com/heat-and-frost-insulators/" target="_blank" class="eap-phone" style="text-decoration:none;">YouTurn Health →</a>
+        </div>
+
+        <div class="eap-item highlight">
+          <div class="eap-union">988 · Suicide &amp; Crisis Lifeline</div>
+          <div class="eap-phone" style="color:white;">All Unions · 24/7</div>
+        </div>
+
       </div>
     </div>
+
+    <!-- Additional Resources -->
+    <div class="fade-up" style="margin-bottom:48px;">
+      <div style="font-family:'Mono',monospace;font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);margin-bottom:16px;">— Additional Resources</div>
+      <div style="font-family:'Display',sans-serif;font-weight:800;font-size:32px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:24px;">Recovery &amp; Support</div>
+
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:var(--paper-dk);">
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--teal);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">Alcoholics Anonymous NM</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">Meetings across New Mexico — in person and online.</div>
+          <a href="https://nm-aa.org/" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">nm-aa.org →</a>
+        </div>
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--gold);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">Narcotics Anonymous ABQ</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">Rio Grande area NA meetings and support.</div>
+          <a href="https://abq.riograndena.org/" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">abq.riograndena.org →</a>
+        </div>
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--orange);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">Veterans Administration NM</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">VA health care contact and resources for NM veterans.</div>
+          <a href="https://www.va.gov/new-mexico-health-care/contact-us/" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">va.gov →</a>
+        </div>
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--teal);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">Albuquerque Community Safety</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">Non-police crisis response for mental health and wellness calls.</div>
+          <a href="https://www.cabq.gov/acs" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">cabq.gov/acs →</a>
+        </div>
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--gold);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">Las Cruces LIGHT Program</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">Las Cruces Fire Department mobile integrated health program.</div>
+          <a href="https://lascruces.gov/safety/fire-department/programs-and-events/" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">lascruces.gov →</a>
+        </div>
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--orange);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">Santa Fe Alternative Response</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">Santa Fe Fire Department mobile integrated health unit.</div>
+          <a href="https://santafenm.gov/fire-department/mobile-integrated-health" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">santafenm.gov →</a>
+        </div>
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--teal);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">CHESS Health — NM</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">NM Health Care Authority — Connections app for substance use support.</div>
+          <a href="https://yes.nm.gov/s/chess-healths-connections-app?language=en_US" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">yes.nm.gov →</a>
+        </div>
+
+        <div style="background:white;padding:24px 28px;border-left:4px solid var(--gold);">
+          <div style="font-family:'Display',sans-serif;font-weight:800;font-size:16px;text-transform:uppercase;color:var(--navy-dk);margin-bottom:6px;">Agora Crisis Center</div>
+          <div style="font-size:13px;color:#555;margin-bottom:10px;line-height:1.5;">24/7 crisis support and counseling — call or chat online.</div>
+          <a href="http://www.agoracares.org/" target="_blank" style="font-family:'Mono',monospace;font-size:12px;color:var(--teal);text-decoration:none;border-bottom:1px solid var(--teal);">agoracares.org →</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="fade-up" style="text-align:center;padding:40px 0 20px;">
+      <p style="font-size:14px;color:#888;font-family:'Mono',monospace;letter-spacing:0.06em;margin-bottom:16px;">MORE RESOURCES AT</p>
+      <a href="https://www.nmbtwellness.org" target="_blank" style="font-family:'Display',sans-serif;font-weight:800;font-size:22px;color:var(--teal);text-decoration:none;letter-spacing:0.04em;text-transform:uppercase;">www.nmbtwellness.org →</a>
+    </div>
+
   </div>
 </section>
 
